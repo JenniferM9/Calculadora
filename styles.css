@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto; /* Ajusta el margen según tus preferencias y centra horizontalmente */
+    font-family: 'Digital', sans-serif;
+    background-color: #f4f4f4;
+    border: 1px solid #333; /* Agrega un borde al body */
+    border-radius: 15px; /* Opcional: puedes ajustar el radio del borde */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    width: fit-content; /* Ajusta el ancho automáticamente según el contenido */
+}
+
+.calculator-container {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+    text-align: center;
+}
+
+#display {
+    width: 400px;
+    height: 60px;
+    text-align: right;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e6d3d3;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button {
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #4CAF50, #45a049);
+    color: white;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #717dec, #4CAF50);
+}
